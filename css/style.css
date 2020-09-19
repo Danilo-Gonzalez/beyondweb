@@ -1,0 +1,145 @@
+body{
+  font-family: 'Titillium Web', sans-serif;
+  
+}
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+.navbar{
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.589);
+  
+  font-size: 25px;  
+  background-color: #000;
+  
+}
+
+.h1-intro{
+    text-align: center;
+}
+#servicios{ 
+  background-color: none;
+  text-align: center;
+  margin-top: 5%;
+} 
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  } 
+  #services{
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+#jumbo-1{
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+}
+#jumbo-2{
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  background-color: none;
+}
+
+/* ==================================================
+  Parallax Styling
+  ================================================== */
+  .block {
+    color: #fff;
+    height: 590px;
+    overflow: hidden;
+    padding-top: 55px;
+  }
+  
+  .block h2 {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+  }
+  
+  .block p {
+    color: #fff;
+    margin-bottom: 0px;
+  }
+  #img-paralax{
+    width: 850px;
+    height: 450px;
+    margin-bottom: 8%;
+  }
+  
+
+  /*contacto*/
+#form-contacto{
+  width: 400px;
+  height: 620px;  
+  background-color: rgba(0, 0, 0, 0.479);
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 15px 10px 10px 10px;
+  color: white;
+  -webkit-appearance: textfield;
+  -webkit-rtl-ordering: logical;
+  -webkit-text-fill-color: white;
+}
+  #fondo-contacto{  
+    background: url(../img/paralax-2.jpg);
+    background-size: cover; 
+    height: 730px;
+    width: 1000;
+    padding: 20px 0px 10px 10px;
+    color: white;
+  }
+  #tema-contacto{
+   
+    text-align: center;  
+  }
+
+  /*imgs*/
+  .thumbnail-img {
+    transition: all 1s ease-in-out 0s;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -moz-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    -ms-transition: all 1s ease-in-out 0s;
+}
+
+.thumbnail-img:hover {
+    transform:rotate(-10deg) scale(1.2);
+    -webkit-transform:rotate(-10deg) scale(1.2);
+    -moz-transform:rotate(-10deg) scale(1.2);
+    -o-transform:rotate(-10deg) scale(1.2);
+    -ms-transform:rotate(-10deg) scale(1.2);
+}

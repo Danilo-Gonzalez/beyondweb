@@ -1,0 +1,348 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/intro.css">
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <title>Inicio</title>
+<body> 
+    <nav id="menu" class="navbar navbar-expand-lg navbar-dark scrolling-navbar fixed-top navbar-inverse">
+        <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#header"><span><img src="img/icon.png" width="40" height="36" alt="icon"></span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link js-scroll-trigger" href="#header">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#jumbo-1">Informacion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#servicios">Servicios</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mas</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item js-scroll-trigger" href="#parallax-container">Web Responsive</a>
+              <a class="dropdown-item js-scroll-trigger" href="#jumbo-2">Diseños</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#fondo-contacto">Contacto</a>
+          </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+      </nav>
+<!--fin menu nav-->
+    <!--intro video-->
+    <header id="header">
+      <div class="overlay"></div>
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="video/intro2.mp4" type="video/mp4">
+      </video>
+        <div class="container h-100">
+          <div class="d-flex text-center h-100">
+            <div class="my-auto w-100 text-white">
+              <div class="container col-lg-12 col-md-12 align-center" id="logo-intro" class="pull-left">
+                  <a class="hero-brand" href="index.html" title="Home">
+                    <img src="img/logo1.png" class="img-fluid" width="900" height="300">
+                  </a>           
+              </div>
+            </div>
+      </header>      <!--fin del intro-->  
+       
+      <!--Titulo-->
+      <section class="jumbotron" id="jumbo-1">  
+        <div class="container">                         
+          <h1 class="display-4">La Tecnologia Web a tu alcance</h1>
+          <p class="lead">Ofreciendo lo mejor en desarrollo web rapido, acccesible y dinamico.</p>
+          <hr class="my-4">
+          <p id="pjumbo1">¿Buscas publicidad para tu empresa?, ¿Nesesitas anunciar tu empresa en internet?, somos tu mejor opcion.</p>
+          <p class="lead">
+          <a class="btn btn-outline-primary btn-lg js-scroll-trigger" href="#servicios" role="button">Leer Mas</a>
+          </p>
+        </div> 
+      </section>
+
+      <!--Servicios-->
+      <br>
+      <br>
+      <section class="container" id="servicios">
+          <div class="container col-lg-12 col-md-12 align-center">
+            <h1 class="display-4">Nuestros Servicios</h1> 
+          </div>
+        <div class="container col-lg-12 align-justify">                             
+          <div class="row Marcketing">
+           <div id="Dmarcketing" class="col-lg-4 div-img hidden">
+           <img class="rounded img-fluid img" src="img/dm.png" alt="Generic placeholder image" width="300" height="300">
+        
+           <h2>Marcketing Digital</h2>
+           <p><a class="btn btn-primary js-scroll-trigger" href="#Marcketing" role="button">Ver Mas &raquo;</a></p>
+         </div><!-- /.col-lg-4 -->
+        <div id="Wcreations" class="col-lg-4 ">
+            <img class="rounded img-fluid" src="img/development.png" alt="Generic placeholder image" width="400" height="300">
+            <h2>Desarrollo Web </h2>
+            <p><a class="btn btn-primary js-scroll-trigger" href="#DesarrolloW" role="button">Ver Mas &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div id="Ecommerce" class="col-lg-4 ">
+            <img class="rounded img-fluid" src="img/ecommerce1.png" alt="Generic placeholder image" width="400" height="300">
+            <h2>E-Commerse</h2>
+          <p><a class="btn btn-primary js-scroll-trigger" href="#E-Commerse" role="button">Ver Mas &raquo;</a></p>
+        </div>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+      </div>
+    </section>
+    <section id="services">
+    <hr class="featurette-divider" id="Marcketing">
+    <div class="row featurette " >
+      <div class=" col-md-7">
+        <h2 class="featurette-heading">Publicidad Digital.<span class="text-muted"> Digital Marcketing.</span></h2>
+        <p class="lead align-center"> La <span class="text-muted">Mercadotecnnia online o digital</span> es un estudio de las tecnicas del uso del internet
+          para promocionar y vender productos y servicios. Estas estrategias y tacticas de marketing digital se plasma dentro de un plan de mercadotecnia en linea que incluyen
+          la publicidad de pago por clic, los anuncios en paginas web, los envios de correos  masivos, marketing en redes sociales y la mercadotecnia de bitacoras o blogs.</p>
+      </div>
+      <div class="col-md-5 thumbnail">
+        <img src="img/MD.jpg" class="featurette-image img-fluid mx-auto thumbnail-img" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+      </div>
+    </div>
+
+    <hr class="featurette-divider" id="DesarrolloW">
+
+    <div class="row featurette" >
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Diseño y Desarrollo de paginas Web. <span class="text-muted"> Web Development.</span></h2>
+        <p class="lead">Nos encargamos de estudiar cada caso para de definir, diseñar y ejecutar el diseño y desarrollo de la pagina web para empresas
+          y marcas.Realizamos todo tipo de proyectos web a medida, segun las nesesidades para cada negocio; nos encargamos del diseño y desarrollo de paginas Web
+          con el uso de herrmientas actualizadas y de mas demanda en diseño y maquetacion tales como <span class="text-muted">HTML5, CSS3</span> y en lenguajes de programacion
+          como <span class="text-muted">Java web, PHP, Javascript, </span>etc..</p>
+      </div>
+      <div class="col-md-5 order-md-1 thumbnail">
+        <img src="img/DW.jpg" class="featurette-image img-fluid mx-auto thumbnail-img" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+      </div>
+    </div>
+
+    <hr class="featurette-divider" id="E-Commerse">
+
+    <div class="row featurette" >
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Tienda Online.<span class="text-muted"> Ecommerce.</span></h2>
+        <p class="lead">Ecommerce para aplicaiones SSL, totalmente autogestionable con carro de compra y pago (paypal, mercadopago, transteferencia, TPV para targetas de credito).
+          Con dominio, hosting y garantia en servicio tecnico y asesoramiento para ayudar en cualquier problema. Desarrollo con los mejores gestores de contenido CMS: Prestashop, Magento,
+          osCommerce, Shopify, Opencard o Wordpress.  
+        </p>
+      </div>
+      <div class="col-md-5 thumbnail">
+        <img src="img/Ecommerce.jpg" class="featurette-image img-fluid mx-auto thumbnail-img" data-src="holder.js/500x500/auto" alt="Generic placeholder image">        
+      </div>
+    </div>
+  </section>
+
+    <hr class="featurette-divider">
+    <!-- /END THE FEATURETTES --> 
+
+              <!--parallax-->
+    <section id="parallax-container">
+      <div class="block bg-primary block-pd-lg block-bg-overlay text-center block-bg-img" data-bg-img="img/parallax-bg.jpg" data-settings="{&quot;stellar-background-ratio&quot;: 0.6}" data-toggle="parallax-bg" data-stellar-background-ratio="0.6" class="img-fluid" style="background-image: url(&quot;img/parallax-bg.jpg&quot;); background-position: 0px 44px;">
+        <div class="container">
+          <h2>Diseño Web Adaptable</h2>                
+          <p>Paginas web adaptables a cualquer resolucion del dispositivo mas te guste usar</p>
+          <img class="gadgets-img hidden-md-down img-fluid" src="img/gadgets.png" id="img-paralax">
+        </div>
+      </div>
+    </section>
+
+<!--Contenidos de Diseños-->
+        <section class="jumbotron" id="jumbo-2">
+            <div class="container">                                     
+              <h1 class="display-4">Diseños Personalizados</h1>  
+            </div>          
+        </section>
+         <!-- Newsfeed-->
+         <section class="container">
+         
+            <!--First row-->
+            <div id="products">
+           
+<div class="row">
+<div class="col-md-6 mb-4">
+<!--Card-->
+<div class="card card-cascade narrower card-ecommerce">
+<!--Card image-->
+<div class="view view-cascade overlay">
+<img width="702" height="319" src="img/plantilla-1.png" class="img-fluid wp-post-image"/>
+<div class="mask rgba-white-slight"></div>
+</a>
+</div>
+<!--/.Card image-->
+<!--Card content-->
+<div class="card-body card-body-cascade text-center">
+  <!--Category & Title-->
+  <h4 class="card-title"><strong><a href="https://mdbootstrap.com/freebies/blog-template/">Marcketing</a></strong></h4>
+  <!--Description-->
+  <p class="card-text"><p>Compras de productos.</p>
+</p>
+  <a id="live_54102" class="btn btn-primary btn-rounded btn-md" href="http://preview.astemplates.com/itempreview/980" role="button">Ver <i class="fa fa-photo ml-1 mr-0"></i></a>
+
+</div>
+<!--/.Card content-->
+</div>
+<!--/.Card-->
+</div>
+
+    <div class="col-md-6 mb-4">
+    <!--Card-->
+    <div class="card card-cascade narrower card-ecommerce">
+    <!--Card image-->
+    <div class="view view-cascade overlay ">
+    <img width="702" height="319" src="img/plantilla-2.png" class="img-fluid wp-post-image"/>
+    <div class="mask rgba-white-slight"></div>
+    </a>
+    </div>
+    <!--/.Card image-->
+    <!--Card content-->
+    <div class="card-body card-body-cascade text-center">
+      <!--Category & Title-->
+      <h4 class="card-title"><strong><a href="https://mdbootstrap.com/freebies/blog-template/">Marcketing</a></strong></h4>
+      <!--Description-->
+      <p class="card-text"><p>Ofertas de temporada.</p>
+    </p>
+      <a id="live_54102" class="btn btn-primary btn-rounded btn-md" href="http://preview.astemplates.com/itempreview/789" role="button">Ver <i class="fa fa-photo ml-1 mr-0"></i></a>
+    
+    </div>
+    <!--/.Card content-->
+    </div>
+    <!--/.Card-->
+    </div>   
+    </div>
+  </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+        <!--Card-->
+        <div class="card card-cascade narrower card-ecommerce">
+        <!--Card image-->
+        <div class="view view-cascade overlay">
+        <img width="702" height="319" src="img/plantilla-3.png" class="img-fluid wp-post-image"/>
+        <div class="mask rgba-white-slight"></div>
+        </a>
+        </div>
+        <!--/.Card image-->
+        <!--Card content-->
+        <div class="card-body card-body-cascade text-center">
+          <!--Category & Title-->
+          <h4 class="card-title"><strong><a href="https://mdbootstrap.com/freebies/blog-template/">Publicidad</a></strong></h4>
+          <!--Description-->
+          <p class="card-text"><p>Gastronomia.</p>
+        </p>
+          <a id="live_54102" class="btn btn-primary btn-rounded btn-md" href="http://preview.astemplates.com/itempreview/785" role="button"> Ver <i class="fa fa-photo ml-1 mr-0"></i></a>
+        
+        </div>
+        <!--/.Card content-->
+        </div>
+        <!--/.Card-->
+        </div>        
+        
+        <div class="col-md-6 mb-4">
+            <!--Card-->
+        <div class="card card-cascade narrower card-ecommerce">
+            <!--Card image-->
+        <div class="view view-cascade overlay">
+        <img width="702" height="319" src="img/plantilla-4.png" class="img-fluid wp-post-image"/>
+        <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+            <!--/.Card image-->
+            <!--Card content-->
+        <div class="card-body card-body-cascade text-center">
+              <!--Category & Title-->
+          <h4 class="card-title"><strong><a href="https://mdbootstrap.com/freebies/blog-template/">Publicidad</a></strong></h4>
+              <!--Description-->
+          <p class="card-text"><p>Viajes.</p>
+          </p>
+          <a id="live_54102" class="btn btn-primary btn-rounded btn-md" href="http://preview.astemplates.com/itempreview/789" role="button">Ver <i class="fa fa-photo ml-1 mr-0"></i></a>
+            
+          </div>
+            <!--/.Card content-->
+          </div>
+            <!--/.Card-->
+          </div>   
+          </div>  
+        </div>
+      </section>
+    <!-- /.Newsfeed (plantillas)-->
+
+    <section id="fondo-contacto">
+      <!--img src="img/paralax-2.jpg" id="img-fondo-contacto" class="img-fluid"-->   
+                
+          <form class="form-horizontal" id="form-contacto">
+            <div class="col-md-12 mb-3" id="tema-contacto"><h3>Contactanos</h3></div>
+
+            <div class="form-group">  
+                <div class="col-md-12 mb-3">            
+                  <label for="validationServer01" >Nombres</label>
+                  <input type="text" class="form-control is-valid bg-transparent" id="validationServer01" placeholder="Nombres" required>
+                </div>
+                <div class="col-md-12 mb-3">
+                  <label for="validationServer02">Apellidos</label>
+                  <input type="text" class="form-control is-valid bg-transparent" id="validationServer02" placeholder="Apellidos" required>
+                </div>
+          
+            <div class="form-row container">   
+              <div class="col-md-6 mb-3">
+                <label>E-mail</label>
+                <input type="email" class="form-control is-valid bg-transparent" id="validationServer04" placeholder="ejemplo@correo.com" required>
+            </div>
+
+              <div class="col-md-6 mb-3">
+                <label for="validationServer05">Ciudad</label>
+                <input type="text" class="form-control is-valid bg-transparent" id="validationServer05" placeholder="Ciudad" required>      
+              </div>
+            </div>
+            <div class="form-container">
+                <div class="col-md-12 mb-3">
+                    <label for="validationServer01">Mensaje</label>
+                    <textarea rows="6" cols="9" class="form-control is-valid bg-transparent" placeholder="Mensaje aqui..."></textarea>     
+                  </div>
+                </div> 
+                <div class="container">
+            <button class="col-lg-12 mb-3 btn btn-success" type="submit">Enviar</button>
+            </div>
+          </form>  
+            
+    </section>   
+
+</body>
+ 
+           
+           <!--librerias JS--> 
+                    <!--paralax js-->
+        <script src="lib/jquery/jquery-migrate.min.js"></script>  
+        <script src="lib/stellar/stellar.min.js"></script>
+        <script src="lib/parallax/parallax.js"></script>
+                    <!--scrollreveal js-->
+        <script src="js/animaciones.js"></script>
+        <script src="lib/scrollreveal/scrollreveal.js"></script>
+        <script src="lib/scrollreveal/scrollanimaciones.js"></script>
+                    <!--color navbar scroll-->
+        <script src="js/scroll-nav.js"></script>
+                    <!--navbar scroll jquery-->
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/scrolling-nav.js" ></script>   
+              
+</html>
+
+
